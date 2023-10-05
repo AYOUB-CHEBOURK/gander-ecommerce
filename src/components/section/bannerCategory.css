@@ -107,7 +107,7 @@
     border: 2px solid var(--fir-color);
     transition: .5s linear;
     cursor: pointer;
-    margin-top: -50px;
+    margin-top: -55px;
 }
 
 .banner-category .box3 img{
@@ -141,7 +141,7 @@
     border: 2px solid var(--main-color);
     transition: .5s linear;
     cursor: pointer;
-    margin-top: -50px;
+    margin-top: -55px;
 }
 
 .banner-category .box4:hover{
