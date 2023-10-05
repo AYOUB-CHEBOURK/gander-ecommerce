@@ -85,7 +85,7 @@
 
 .banner-category .box2 img{
     width: 90%;
-    height: 79%;
+    height: 70%;
 }
 
 .banner-category .box2 button{
@@ -108,7 +108,7 @@
 
 .banner-category .box3 img{
     width: 100%;
-    height: 60%;
+    height: 50%;
 }
 
 .banner-category .box3:hover{
@@ -196,8 +196,18 @@
         height: 100%;
     }
 
+    .banner-category .box2 img{
+        width: 90%;
+        height: 79%;
+    }
+
     .banner-category .box3{
         width: 100%;
+    }
+
+    .banner-category .box3 img{
+        width: 100%;
+        height: 60%;
     }
 
     .banner-category .box4{
