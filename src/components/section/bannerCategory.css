@@ -16,7 +16,7 @@
     border: 2px solid var(--fir-color);
     padding: 30px;
     width: 50vw;
-    height: 90%;
+    height: 80%;
     cursor: pointer;
     transition: .5s linear;
 }
@@ -74,7 +74,7 @@
     transition: .5s linear;
     overflow: hidden;
     cursor: pointer;
-    height: 90%;
+    height: 80%;
 }
 
 .banner-category .box2:hover{
@@ -102,7 +102,7 @@
     background-color: var(--fir-color);
     padding: 30px;
     width: 30vw;
-    height: 90%;
+    height: 80%;
     border-radius: 10px;
     border: 2px solid var(--fir-color);
     transition: .5s linear;
@@ -134,7 +134,7 @@
     background-color: var(--main-color);
     padding: 30px;
     display: flex;
-    height: 90%;
+    height: 80%;
     margin-left: -270px;
     border-radius: 10px;
     border: 2px solid var(--main-color);
