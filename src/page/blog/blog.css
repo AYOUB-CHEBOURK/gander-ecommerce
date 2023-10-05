@@ -1,0 +1,61 @@
+
+.blog{
+    padding-top: calc(var(--all-padding) - 20px);
+}
+
+.blog h1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    color: var(--bla-color);
+    background-color: var(--fir-color);
+    padding: var(--all-padding) 0;
+}
+
+.blog .container .cards{
+    padding-top: var(--all-padding);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.blog .container .cards .card{
+    padding: 20px;
+    background-color: var(--fir-color);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.blog .container .cards .card img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.blog .container .cards .card span{
+    color: var(--p-color);
+}
+
+.blog .container .cards .card h2{
+    font-size: 18px;
+    font-weight: 550;
+    color: var(--bla-color);
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+
+.blog .container .cards .card p{
+    color: var(--p-color);
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 992px){
+    .blog .container .cards{
+        padding-top: var(--all-padding);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}

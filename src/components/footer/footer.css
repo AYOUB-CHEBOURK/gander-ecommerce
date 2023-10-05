@@ -1,0 +1,87 @@
+
+.footer{
+    padding-top: var(--all-padding)
+}
+
+.footer .container{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 100px;
+}
+
+.footer .logo p{
+    color: var(--p-color);
+    padding-top: 30px;
+    font-size: 16px;
+    width: 120%;
+}
+
+.footer .page h1{
+    font-size: 25px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.footer .page nav ul{
+    padding-left: 42%;
+}
+
+.footer .page nav ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    color: var(--p-color);
+    transition: .5s linear;
+    padding-top: 15px;
+}
+
+.footer .page nav ul li a:hover,
+.footer .page nav ul li a:focus,
+.footer .page nav ul li a.active{
+    color: var(--main-color);
+}
+
+.footer .contacts h1{
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.footer .contacts h2{
+    color: var(--p-color);
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.footer .contacts .icon ul{
+    display: flex;
+    margin-left: -30px;
+}
+
+.footer .contacts .icon ul li a{
+    margin-right: 30px;
+    color: var(--p-color);
+    font-size: 25px;
+    transition: .5s linear;
+}
+
+.footer .contacts .icon ul li a:hover{
+    color: var(--main-color);
+}
+
+@media screen and (max-width: 992px){
+    .footer .container{
+        display: grid;
+        grid-template-columns: repeat( 2, 1fr);
+    }
+
+
+    .footer .page nav ul{
+        padding-left: 34%;
+    }
+
+    .footer .contacts {
+        margin-top: -80px;
+    }
+}

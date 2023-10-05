@@ -1,0 +1,78 @@
+
+.subscribe{
+    padding-top: var(--all-padding);
+}
+
+
+
+.subscribe .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 var(--all-padding) ;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    height: 80vh;
+}
+
+.subscribe .container .text{
+    color: var(--whi-color);
+    width: 110%;
+}
+
+.subscribe .container .text h1{
+    font-size: 64px;
+    font-weight: 550;
+}
+
+.subscribe .container .text p{
+    padding-bottom: 30px;
+    font-weight: 550;
+    width: 90%;
+}
+
+.subscribe .container .text button{
+    color: var(--bla-color);
+    background-color: var(--whi-color);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    /* font-weight: 550; */
+    width: 30%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe .container .text button .icon{
+    margin-right: 5px;
+    transition: .5s linear;
+}
+
+.subscribe .container .text button:hover .icon{
+    transform: rotate(-15deg);
+}
+
+.subscribe .container img{
+    width: 100%;
+    height: 100%;
+    margin-right: -60px;
+}
+
+
+@media screen  and (max-width: 992px){
+    .subscribe{
+        padding: var(--all-padding) 10px;
+        padding-bottom: 0;
+    }
+
+    .subscribe .container img{
+        display: none;
+    }
+
+    .subscribe .container{
+        padding: 25px;
+        height: 60vh;
+    }
+}

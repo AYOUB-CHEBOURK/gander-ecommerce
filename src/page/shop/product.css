@@ -1,0 +1,173 @@
+
+.product{
+    padding-top: calc(var(--all-padding) - 20px);
+}
+
+.product .container .cart{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 50px;
+    place-items: center;
+}
+
+.product .container .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.product .container .box h1{
+    color: var(--bla-color);
+    font-weight: 550;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.product .container .price{
+    display: flex;
+    color: var(--p-color);
+    margin-bottom: 20px;
+}
+
+.product .container .price  h2{
+    font-size: 18px;
+}
+
+.product .container .price h3{
+    font-size: 15px;
+    padding-left: 20px;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.product .container .box p{
+    color: var(--p-color);
+    font-size: 17px;
+    /* letter-spacing: 0.5px; */
+}
+
+.product .container .box .drop{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.product .container .box .drop .select{
+    outline: none;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+    color: var(--bla-color);
+    cursor: pointer;
+}
+
+.product .container .box .drop .icon-drop{
+    position: absolute;
+    right: 32%;
+    top: 30%;
+    font-size: 15px;
+    color: var(--p-color);
+    opacity: 0.5;
+}
+
+.product .container .box .caption{
+    display: flex;
+    gap: 30px;
+}
+
+.product .container .box .caption label{
+    color: var(--p-color);
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .container .box .caption input{
+    width: 80px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    color: var(--bla-color);
+
+}
+
+.product .container .box .caption .submit{
+    padding: 10px;
+    background-color: var(--main-color);
+    color: var(--whi-color);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 550;
+    width: 120px;
+    font-size: 17px;
+    transition: .5s linear;
+}
+
+.product .container .box .caption .submit:hover{
+    background-color: var(--fir-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+
+/*/ start css of service ////////////////////////////*/
+
+
+.product .container .service{
+    padding-top: var(--all-padding);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.product .container .service .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: none;
+}
+
+.product .container .service .card .image{
+    background-color: var(--fir-color);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.product .container .service .card img{
+    width: 40px;
+    height: 40px;
+}
+
+.product .container .service .card .caption{
+    text-align: center;
+}
+
+.product .container .service .card .caption h1{
+    font-size: 20px;
+    font-weight: 550;
+    color: var(--bla-color);
+}
+
+.product .container .service .card .caption h2{
+    color: var(--p-color);
+    font-size: 17px;
+}
+
+
+
+
+@media screen and (max-width: 992px){
+    .product .container .cart{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+    .product .container .service{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

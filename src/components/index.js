@@ -1,0 +1,10 @@
+
+export{default as NavBar} from '../components/header/navBar'
+export{default as Hero} from '../components/header/hero'
+export{default as BannerCategory} from '../components/section/bannerCategory'
+export{default as FeaturedProducts} from '../components/section/featuredProducts'
+export{default as Slide} from '../components/section/slide'
+export{default as LatestProducts} from '../components/section/latestProducts'
+export{default as Reviews} from '../components/section/reviews'
+export{default as Subscribe} from '../components/section/subscribe'
+export{default as Footer} from '../components/footer/footer'

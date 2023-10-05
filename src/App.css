@@ -1,0 +1,27 @@
+#root{
+  --main-color: rgb(46, 104, 255);
+  --fir-color: #f4f9ff;
+  --whi-color: white;
+  --bla-color: black;
+  --p-color: #626262;
+  --all-padding: 55px;
+
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+}

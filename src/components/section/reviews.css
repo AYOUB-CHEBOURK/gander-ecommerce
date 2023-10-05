@@ -1,0 +1,63 @@
+
+.reviews{
+    padding-top: var(--all-padding);
+}
+
+.reviews h1{
+    text-align: center;
+    font-weight: 550;
+}
+
+.reviews .cards{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.reviews .cards .card{
+    border: none;
+    background-color: var(--fir-color);
+    padding: 15px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.reviews .cards .card .caption{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.reviews .cards .card .caption img{
+    max-width: 100%;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.reviews .cards .card .caption .text{
+    margin-left: 20px;
+}
+
+.reviews .cards .card .caption h2{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.reviews .cards .card .caption h3{
+    font-size: 16px;
+    /* font-weight: 550; */
+}
+
+.reviews .cards .card p{
+    color: var(--p-color);
+    width: 85%;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 992px){
+    .reviews .cards{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+}
