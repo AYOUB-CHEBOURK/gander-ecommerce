@@ -44,7 +44,7 @@ const About = () =>{
                     {ReviewsData.map((item , id)=>(
                         <div className="box2" key={id}>
                             <div className="caption">
-                                <img src={item.image} alt="" />
+                                <img src={item.image} alt="image" />
                                 <div className="text">
                                     <h2>{item.name}</h2>
                                     <h3><FaStar/><FaStar/><FaStar/><FaStar/><FaRegStarHalfStroke/></h3>

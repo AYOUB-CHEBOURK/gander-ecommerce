@@ -27,8 +27,8 @@
 }
 
 .banner-category .box1 img{
-    width: 65%;
-    height: 70%;
+    width: 60%;
+    height: 90%;
 }
 
 .banner-category span{
@@ -86,8 +86,8 @@
 }
 
 .banner-category .box2 img{
-    width: 90%;
-    height: 70%;
+    width: 100%;
+    height: 80%;
 }
 
 .banner-category .box2 button{
@@ -102,17 +102,17 @@
     background-color: var(--fir-color);
     padding: 30px;
     width: 30vw;
-    height: 80%;
+    height: 90%;
     border-radius: 10px;
     border: 2px solid var(--fir-color);
     transition: .5s linear;
     cursor: pointer;
-    margin-top: -55px;
+    margin-top: -85px;
 }
 
 .banner-category .box3 img{
     width: 100%;
-    height: 50%;
+    height: 55%;
 }
 
 .banner-category .box3:hover{
@@ -135,13 +135,13 @@
     background-color: var(--main-color);
     padding: 30px;
     display: flex;
-    height: 80%;
+    height: 90%;
     margin-left: -270px;
     border-radius: 10px;
     border: 2px solid var(--main-color);
     transition: .5s linear;
     cursor: pointer;
-    margin-top: -55px;
+    margin-top: -85px;
 }
 
 .banner-category .box4:hover{
@@ -149,7 +149,7 @@
 }
 
 .banner-category .box4 h1{
-    color: var(--whi-color);
+    color: var(--bla-color);
     width: 90%;
 }
 
@@ -164,8 +164,8 @@
 }
 
 .banner-category .box4 img{
-    width: 75%;
-    height: 65%;
+    width: 70%;
+    height: 100%;
 }
 
 .banner-category .box4 button{

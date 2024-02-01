@@ -1,5 +1,6 @@
 import './hero.css'
 import image1 from '../../assets/images/image1.png'
+import { Link } from 'react-router-dom'
 
 const Hero = () =>{
     return(
@@ -17,7 +18,7 @@ const Hero = () =>{
                                     <h1>The ultimate <span>smart watch</span> destination</h1>
                                     <p>Satisfied conveying a dependent contented he gentleman agreeable do be. Warrant private blushes removed an in equally totally if. Delivered dejection necessary objection do prevailed.</p>
                                     <div className="caption">
-                                        <button>Purchase</button>
+                                        <Link to="/shop"> <button>Purchase</button></Link>
                                         <h2>$599.00 USD</h2>
                                     </div>
                                 </div>

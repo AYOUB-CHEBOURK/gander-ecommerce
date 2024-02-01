@@ -39,20 +39,22 @@
 .contact .container form .main-input input{
     padding: 10px;
     background-color: var(--fir-color);
-    border: none;
+    border: 2px solid var(--fir-color);
     font-size: 15px;
     line-height: 1.6;
     letter-spacing: 1px;
     width: 100%;
 }
 
-.contact .container form .main-input input:focus{
-    background-color: transparent;
+.contact .container form .main-input input:focus,
+.contact .container form textarea:focus{
+    outline: none;
+    border: 2px solid var(--main-color);
 }
 
 .contact .container form textarea{
     background-color: var(--fir-color);
-    border: none;
+    border: 2px solid var(--fir-color);
     padding: 10px;
     font-size: 14px;
     line-height: 1.6;

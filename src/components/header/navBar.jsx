@@ -15,7 +15,7 @@ const NavBar = () =>{
               <div className="container">
                 <div className="item">
                     <div className="logo">
-                        <Link to='/'><img src={logo} alt="" /></Link>
+                        <Link to='/'><img src={logo} alt="logo" /></Link>
                     </div>
                     <form action="">
                         <input type="search" name="search" placeholder="Search here..." />
