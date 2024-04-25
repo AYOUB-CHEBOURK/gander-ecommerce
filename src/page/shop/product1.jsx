@@ -5,10 +5,14 @@ import { FeaturedProductsData } from '../../data/featuredProductsData';
 import { useParams } from 'react-router-dom';
 import { addToCart } from '../../redux/cartReducer';
 import { useDispatch } from 'react-redux';
-import { useState } from 'react';
+import { useState , useEffect } from 'react';
 
 
 const Product1 = () =>{
+
+    useEffect(() =>{
+        window.scrollTo(0,0);
+    }, []);
 
     const dispatch = useDispatch()
     const { id } = useParams(); // Get the product ID from the URL

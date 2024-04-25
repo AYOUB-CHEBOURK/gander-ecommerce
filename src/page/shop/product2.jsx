@@ -5,10 +5,17 @@ import { ShopProductsData } from '../../data/shopData';
 import { useParams } from 'react-router-dom';
 import { addToCart } from '../../redux/cartReducer';
 import { useDispatch } from 'react-redux';
-import { useState } from 'react';
+import { useState , useEffect } from 'react';
 
 
 const Product2 = () =>{
+
+    useEffect(() =>{
+        window.scrollTo(0,0);
+    }, []);
+
+
+
     const dispatch = useDispatch() // get and add product in shop cart
     const { id } = useParams(); // Get the product ID from the URL
     const [selectedColor, setSelectedColor] = useState(""); // Initialize selectedColor state

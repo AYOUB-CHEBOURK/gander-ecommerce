@@ -3,10 +3,15 @@ import {FeaturedProductsData} from'../../data/featuredProductsData'
 import { ShopProductsData } from '../../data/shopData'
 import { FaAngleLeft , FaAngleRight , FaHeart} from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 // import  { useRef } from 'react';
 
 
 const Shop = () =>{
+
+    useEffect(() =>{
+        window.scrollTo(0,0);
+    }, []);
 
     return(
         <>

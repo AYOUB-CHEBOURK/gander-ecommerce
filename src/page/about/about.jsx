@@ -6,8 +6,14 @@ import { ReviewsData } from '../../data/reviewsData'
 import { FaStar , FaRegStarHalfStroke } from "react-icons/fa6";
 import { AboutFollowData } from '../../data/aboutFollowData';
 import CountUp from 'react-countup';
+import { useEffect } from 'react'
 
 const About = () =>{
+
+    useEffect(() =>{
+        window.scrollTo(0,0);
+    }, []);
+
     return(
         <>
           <div className="about">
